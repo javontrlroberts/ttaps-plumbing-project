@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+/* Styles Reset */
+
+html {
+    box-sizing: border-box;
+}
+
+/* Global Styling */
+
+body {
+    margin: 0;
+    line-height: 1.2;
+    background-color: #FF4E20;
+    color: #fff;
+    min-width: 960px;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn {
+    height: 35px;
+    width: 120px;
+    background-color: #FF4E20;
+    border: 2px solid #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Typography Styling */
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 45px;
+    margin-top: 70px;
+}
+
+div.banner-landing h2 {
+    font-size: 50px;
+    border-left: 2px solid #FF4E20;
+    padding-left: 10px;
+}
+
+div.banner-landing h3 {
+    font-weight: 500;
+}
+
+div.section-svc p {
+    color: #474747;
+}
+
+/* Layout Styling */
+
+header {
+    margin-top: 70px;
+}
+
+.container {
+    width: 960px;
+    margin-inline: auto;
+}
+
+div.contact-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.contacts a,
+div.contacts svg {
+    padding: 0 5px;
+}
+
+div.contact {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background-color: #353434;;
+}
+
+ul.menu-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 356px;
+}
+
+ul.menu-links li {
+    list-style: none;
+}
+
+.booking {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url(./images/plumber.png);
+    padding-top: 75px;
+    margin-top: -20px;
+}
+
+section.banner div.booking-btns {
+    display: flex;
+    gap: 30px;
+}
+
+div.book-now,
+div.get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+div.book-now:hover,
+div.book-now a:hover {
+    background-color: #fff;
+    color: #FF4E20;
+    font-weight: 700;
+}
+
+div.get-started a:hover {
+    color: #fff;
+    font-weight: 700;
+}
+
+div.banner-landing div.get-started {
+    border: 2px solid #FF4E20;
+    background-color: #00000000;
+}
+
+div.banner-landing div.get-started:hover {
+    border: 3px solid #fff;
+    background-color: #FF4E20;
+}
+
+div.service,
+div.availability,
+div.pricing {
+   display: flex;
+   margin-left: 24px;
+   padding: 175px 0;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+div.section-svc {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Icon Styling */
+
+div.contact-media svg {
+    height: 20px;
+}
+
+div.contacts svg {
+    height: 15px;
+}
+
+div.socials svg {
+    padding: 0 3px;
+}
+
+div.socials {
+    margin-right: 20px;
+}
+
+section.banner div.banner-landing {
+    margin-left: 30%;
+    padding-bottom: 100px;
+    padding-left: 15%;
+}
+
+section.services svg {
+    height: 50px;
+    fill: #FF4E20;
+}
+
+/* Links Styling */
+
+div.contact-media a {
+    text-decoration: none;
+}
+
+div.contacts a {
+    color: #fff;
+    font-size: 12px;
+}
+
+div.contacts a#mail-to:hover {
+    font-weight: 700;
+}
+
+ul.menu-links div.contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+ul.menu-links a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+ul.menu-links a#current-page {
+    border-bottom: 2px solid #FF4E20;
+}
+
+div.contact-us a {
+    /* border: 2px solid white; */
+    text-align: center;
+}
+
+div.contact-us:hover,
+div.contact-us a:hover {
+    background-color: #fff;
+    color: #FF4E20;
+    font-weight: 700;
+}
+
+/* Footer Styling */
+
+footer div.footer {
+    background-color: #353434;
+    margin-top: -20px;
+    height: 75px;
+    padding-top: 50px;
+}
+
+footer div.policies {
+    display: flex;
+    align-items: center;
+    margin-left: 106px;
+    gap: 50px;
+    font-size: 14px;
+}
+
+footer div.policies span {
+    margin-left: 155px;
+    color: rgba(245, 245, 245, 0.932);
+    cursor: pointer;
+    transition: all 2ms ease;
+}
+
+footer div.policies span:hover {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14.5px;
+}
+
+div.policies div.terms-and-policies {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+}
+
+div.policies {
+    border-top: 2px solid #FF4E20;
+    margin-right: 80px;
+}
